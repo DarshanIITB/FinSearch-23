@@ -31,4 +31,4 @@ def blackScholes(r, S, K, T, sigma, type):
     except:
         print("Please check if all inputs are valid.")
 
-print("Option price is: ", round(blackScholes(r, S, K, T, sigma,'call'), 2) )
+print("Option price is: ", round(blackScholes(r, S, K, T, sigma,'put'), 2) )
